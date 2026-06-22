@@ -1,11 +1,11 @@
 <settings>
-    <servers>
+  <servers>
   <server>
     <id>nextwork-nextwork-devops-cicd</id>
     <username>aws</username>
     <password>${env.CODEARTIFACT_AUTH_TOKEN}</password>
   </server>
-  </servers>
+</servers>
   <profiles>
   <profile>
     <id>nextwork-nextwork-devops-cicd</id>
@@ -19,13 +19,13 @@
       </repository>
     </repositories>
   </profile>
-  </profiles>
-  <mirrors>
+</profiles>
+<mirrors>
   <mirror>
     <id>nextwork-nextwork-devops-cicd</id>
     <name>nextwork-nextwork-devops-cicd</name>
     <url>https://nextwork-763165855066.d.codeartifact.us-east-1.amazonaws.com/maven/nextwork-devops-cicd/</url>
     <mirrorOf>*</mirrorOf>
   </mirror>
-  </mirrors>
+</mirrors>
 </settings>
